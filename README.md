@@ -1,4 +1,4 @@
-# ChatGPT-API Demo
+# ChatGPT-API Demo v2
 
 English | [简体中文](./README.zh-CN.md)
 
