@@ -1,8 +1,3 @@
-[![](https://cloud-upyun.ddiu.site/picture/2023/04/15/xAe0dY.png)](https://v2.chatgpt.ddiu.me)
-
-> We are working on V2 Version! Preview & more info on https://github.com/ddiu8081/chatgpt-demo/discussions/247.
-
-
 # ChatGPT-API Demo
 
 English | [简体中文](./README.zh-CN.md)
@@ -11,11 +6,17 @@ A demo repo based on [OpenAI GPT-3.5 Turbo API.](https://platform.openai.com/doc
 
 **🍿 Live preview**: https://chatgpt.ddiu.me
 
-**🏖️ V2 Version(Beta)**: https://v2.chatgpt.ddiu.me
-
 > ⚠️ Notice: Our API Key limit has been exhausted. So the demo site is not available now.
 
 ![chat-logo](https://cdn.staticaly.com/gh/yzh990918/static@master/chat-logo.webp)
+
+## Introducing `Anse`
+
+Looking for multi-chat, image-generation, and more powerful features? Take a look at our newly launched [Anse](https://github.com/anse-app/anse).
+
+More info on https://github.com/ddiu8081/chatgpt-demo/discussions/247.
+
+[![image](https://user-images.githubusercontent.com/1998168/235048408-ca4015f5-4d3c-4c64-9a6c-9069a89cd23a.png)](https://github.com/anse-app/anse)
 
 ## Running Locally
 
@@ -140,6 +141,12 @@ You can control the website through environment variables.
 | `PUBLIC_SECRET_KEY` | Secret string for the project. Use for generating signatures for API calls | `null` |
 | `SITE_PASSWORD` | Set password for site, support multiple password separated by comma. If not set, site will be public | `null` |
 | `OPENAI_API_MODEL` | ID of the model to use. [List models](https://platform.openai.com/docs/api-reference/models/list) | `gpt-3.5-turbo` |
+
+## Enable Automatic Updates
+
+After forking the project, you need to manually enable Workflows and Upstream Sync Action on the Actions page of the forked project. Once enabled, automatic updates will be scheduled every day:
+
+![](https://cdn.staticaly.com/gh/yzh990918/static@master/20230518/image.2hhnrsrd2t1c.webp)
 
 
 ## Frequently Asked Questions
